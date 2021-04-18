@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial;
+}
+
+header{
+	padding: 5px 10px;
+	background-color: gray;
+	color: #fff;
+	margin: 0 250px;
+}
+span{
+	
+}
+.mainContent h3{
+	border-bottom: 1px solid gray;
+	margin: 20px 0 0 0;
+}
+
+.main, .sidebar{
+	border: 1px solid lightgray;
+	padding: 10px;
+	line-height: 1.5rem;
+	outline: none;
+
+}
+
+.mainContent{
+	display: flex;
+	flex: space-around;
+	margin: 0 250px;
+}
+
+.exp-items{
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
+
+.sidebar{
+	background-color: #f2f2f2;
+}
+ .personalInfo p{
+ 	margin-bottom: 15px;
+ }
+
+ .skills, .languages{
+ 	padding: 10px;
+ }
